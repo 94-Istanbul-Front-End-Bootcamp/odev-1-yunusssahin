@@ -57,7 +57,8 @@ Butona tıklandıkdan sonra
                 <a id="githubUrl" target="_blank">Github Profili</a>
             </div>
         </div>
-        <script src="index.js"></script>
+        <script src="index.js">
+        </script>
     </body>
 </html>
 ```
