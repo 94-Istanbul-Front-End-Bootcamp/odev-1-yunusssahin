@@ -10,8 +10,9 @@ document.getElementById("fullName").style.fontSize = "16px";
 btnfullName.onclick=function(){
     document.getElementById("nameSurname").innerHTML =fName + " " + lName;
     document.getElementById("age").innerHTML =age;
-    document.getElementById("fullName").style.backgroundColor = "red";
-    document.getElementById("fullName").innerHTML = "İsmim ve Yaşım";
+    var parent = document.querySelector(".parent");
+    var button = document.querySelector(".button");
+    parent.removeChild(button);
 }
 document.getElementById("linkedinUrl").setAttribute("href","https://www.linkedin.com/in/yunusssahin/");
 document.getElementById("githubUrl").setAttribute("href" , "https://github.com/yunusssahin");
